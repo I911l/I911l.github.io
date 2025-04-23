@@ -24,7 +24,16 @@
 <button onclick="location.href='blog.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Blog</button>
 
 <button onclick="location.href='index.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Webpage</button>
-        
+        <form action="your-form-processing-url" method="post">
+        <label for="gender">What is your gender?</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male"> Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female"> Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other"> Other</label><br>
+        <button type="submit">Submit</button>
+    </form>
          </div>
         
     </body>
